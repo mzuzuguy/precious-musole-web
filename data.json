@@ -23,6 +23,16 @@
       "active": true
     },
     {
+     "year": "2024",
+      "date": "2024 - present",
+      "role": "Founder and CEO",
+      "Company": "Youtopia",
+      "description": "A clothing brand that allows you to be who are and express yourself in a way you want to be without seeking validation. BEING YOU.",
+      "tags": ["Social Media Management", "Importance of Contracts", "Finance"],
+      "active": true,
+      "pageurl": "https://www.instagram.com/y_o_u_t_o_p_i_a/"
+    },
+    {
       
       "year": "2024",
       "date": "2022 – Present",
@@ -31,6 +41,7 @@
       "description": "Pursuing a Bachelor of Science in Computer Science. Studying algorithms, data structures, databases, software engineering, and web development. Building hands-on projects alongside coursework.",
       "tags": ["C++", "Databases", "Web Dev", "Algorithms"],
       "active": false
+      
     }
   ],
 
@@ -50,7 +61,7 @@
       "tags": ["C++", "OOP", "File I/O"],
       "codeUrl": "https://github.com/mzuzuguy/student_management_system",
       "liveUrl": "#",
-      "status": "usable",
+      "status": "live",
       "preview": "code"
     },
     {
