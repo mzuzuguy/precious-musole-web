@@ -48,9 +48,9 @@
       "title": "Student Management System",
       "description": "A C++ application implementing file I/O, OOP, pointers and references for managing student records.",
       "tags": ["C++", "OOP", "File I/O"],
-      "codeUrl": "",
-      "liveUrl": "",
-      "status": "coming-soon",
+      "codeUrl": "https://github.com/mzuzuguy/student_management_system",
+      "liveUrl": "#",
+      "status": "usable",
       "preview": "code"
     },
     {
