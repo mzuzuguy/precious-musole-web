@@ -29,7 +29,7 @@
       "Company": "Youtopia",
       "description": "A clothing brand that allows you to be who are and express yourself in a way you want to be without seeking validation. BEING YOU.",
       "tags": ["Social Media Management", "Importance of Contracts", "Finance"],
-      "active": true,
+      "active": "false",
       "pageurl": "https://www.instagram.com/y_o_u_t_o_p_i_a/"
     },
     {
