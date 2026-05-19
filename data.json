@@ -1,7 +1,6 @@
 {
   "skills": [
     { "icon": "☕",  "color": "",        "name": "Java"       },
-    { "icon": "JS",  "color": "#f7df1e", "name": "JavaScript" },
     { "icon": "TS",  "color": "#3178c6", "name": "TypeScript" },
     { "icon": "Nest", "color": "#e0234e", "name": "NestJS"     },
     { "icon": "⑤",  "color": "#e34f26", "name": "HTML5"      },
@@ -9,7 +8,7 @@
     { "icon": "C++", "color": "#b07219", "name": "C++"        },
     { "icon": "🐘",  "color": "#336791", "name": "SQL"        },
     { "icon": "⎇",  "color": "#f05032", "name": "Git"        },
-    { "icon": "🐍",  "color": "#3fb950", "name": "Python"     }
+  
   ],
 
   "experience": [
@@ -45,15 +44,6 @@
       "liveUrl": "",
       "status": "coming-soon",
       "preview": "website"
-    },
-  {
-      "title": "Student Management System",
-      "description": "A C++ application implementing file I/O, OOP, pointers and references for managing student records.",
-      "tags": ["C++", "OOP", "File I/O"],
-      "codeUrl": "https://github.com/mzuzuguy/student_management_system",
-      "liveUrl": "#",
-      "status": "live",
-      "preview": "code"
     },
        
     {
