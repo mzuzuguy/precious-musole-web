@@ -37,6 +37,24 @@
   ],
 
   "projects": [
+    {
+      "title": "Ramona Web Project",
+      "description": "A website for Ramona Foundation • Malawi Building Hope for a Better Tomorrow We empower communities across Malawi through education, healthcare, and sustainable development — giving every person a chance to thrive.",
+      "tags": ["Progres", "PDB", "DDL/DML", "TypeStript", "HTML", "CSS", "Nestjs Framework"],
+      "codeUrl": "", 
+      "liveUrl": "",
+      "status": "coming-soon",
+      "preview": "website"
+    },
+  {
+      "title": "Student Management System",
+      "description": "A C++ application implementing file I/O, OOP, pointers and references for managing student records.",
+      "tags": ["C++", "OOP", "File I/O"],
+      "codeUrl": "https://github.com/mzuzuguy/student_management_system",
+      "liveUrl": "#",
+      "status": "live",
+      "preview": "code"
+    },
        
     {
       "title": "Portfolio Website",
@@ -46,24 +64,6 @@
       "liveUrl": "#",
       "status": "live",
       "preview": "portfolio"
-    },
-    {
-      "title": "Student Management System",
-      "description": "A C++ application implementing file I/O, OOP, pointers and references for managing student records.",
-      "tags": ["C++", "OOP", "File I/O"],
-      "codeUrl": "https://github.com/mzuzuguy/student_management_system",
-      "liveUrl": "#",
-      "status": "live",
-      "preview": "code"
-    },
-    {
-      "title": "Ramona Web Project",
-      "description": "A website for Ramona Foundation • Malawi Building Hope for a Better Tomorrow We empower communities across Malawi through education, healthcare, and sustainable development — giving every person a chance to thrive.",
-      "tags": ["Progres", "PDB", "DDL/DML", "TypeStript", "HTML", "CSS", "Nestjs Framework"],
-      "codeUrl": "", 
-      "liveUrl": "",
-      "status": "coming-soon",
-      "preview": "database"
     }
   ]
 }
