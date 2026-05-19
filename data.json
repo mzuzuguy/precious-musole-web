@@ -57,6 +57,7 @@
       "preview": "code"
     },
     {
+      "_comment":[
       "title": "Youtopia Apparel",
       "Company": "Youtopia",
       "description": "A clothing brand that allows you to be who are and express yourself in a way you want to be without seeking validation. BEING YOU.",
@@ -64,13 +65,14 @@
       "codeurl": "https://www.instagram.com/y_o_u_t_o_p_i_a/",
       "liveurl": "#",
       "status": "live",
-      "preview": "clothing-brand"
+      "preview": "clothing-brand"],
+      "key": "value"
     },
     {
-      "title": "Database Project",
-      "description": "An Oracle SQL database system built for a company schema — managing employees, products, and transactions.",
-      "tags": ["Oracle SQL", "PDB", "DDL/DML"],
-      "codeUrl": "",
+      "title": "Ramona Web Project",
+      "description": "A website for Ramona Foundation • Malawi Building Hope for a Better Tomorrow We empower communities across Malawi through education, healthcare, and sustainable development — giving every person a chance to thrive.",
+      "tags": ["Progres", "PDB", "DDL/DML", "TypeStript", "HTML", "CSS", "Nestjs Framework"],
+      "codeUrl": "", "_commnet": [//https://github.com/mzuzuguy/ramona_foundation_web_site],
       "liveUrl": "",
       "status": "coming-soon",
       "preview": "database"
