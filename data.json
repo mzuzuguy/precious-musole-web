@@ -37,7 +37,7 @@
 
   "projects": [
     {
-      "title": "Ramona Web Project",
+      "title": "Ramona Website Project",
       "description": "A website for Ramona Foundation • Malawi Building Hope for a Better Tomorrow We empower communities across Malawi through education, healthcare, and sustainable development — giving every person a chance to thrive.",
       "tags": ["Progres", "PDB", "DDL/DML", "TypeStript", "HTML", "CSS", "Nestjs Framework"],
       "codeUrl": "", 
