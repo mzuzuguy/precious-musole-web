@@ -171,7 +171,7 @@ function formatDate(dateStr) {
 /* Typewriter */
 const typeLines = [
   'Learning by building, not just watching.',
-  'CS Student @ UNIMA 🇲🇼',
+  'Aspiring Operating Systems Engineer.',
   'Currently: C++ • SQL • Web Dev'
 ];
 let tl = 0, tc = 0, tDeleting = false;
