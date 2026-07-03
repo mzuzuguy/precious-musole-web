@@ -5,7 +5,7 @@
    ============================================================ */
 
 /* ── Load data and kick everything off ── */
-fetch('data.json')
+fetch('./data.json?v=' + new Date().getTime())
   .then(res => res.json())
   .then(data => {
     renderSkills(data.skills);
@@ -13,7 +13,9 @@ fetch('data.json')
     renderProjects(data.projects);
     renderArticles(data.articles);
   })
-  .catch(err => console.error('Could not load data.json:', err));
+  .catch(err => {
+    console.error('Could not load data.json:', err);
+  });
 
 
 /* ══════════════════════════════════════════
