@@ -1,6 +1,8 @@
 {
   "skills": [
     { "icon": "☕",  "color": "",        "name": "Java"       },
+    {"icon": "🔷", "color": "#0175C2", "name": "Dart"},
+    { "icon": "🎯",  "color": "#02569B", "name": "Flutter"    },
     { "icon": "TS",  "color": "#3178c6", "name": "TypeScript" },
     { "icon": "Nest", "color": "#e0234e", "name": "NestJS"     },
     { "icon": "⑤",  "color": "#e34f26", "name": "HTML5"      },
