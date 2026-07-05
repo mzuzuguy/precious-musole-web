@@ -92,26 +92,45 @@ function renderProjects(projects) {
 }
 
 function buildProjectPreview(project) {
-  if (project.status === 'coming-soon') {
-    const previewContent = {
-      code:     `<span style="color:var(--green);font-size:0.8rem;">Loading...</span>`,
-      database: `<span style="color:var(--green);font-size:0.8rem;">SELECT * FROM projects;</span>`,
-    }[project.preview] || `<span style="color:var(--green);font-size:0.8rem;">// work in progress</span>`;
+  const disabled = project.status === "coming-soon";
 
-    return `
-      <div class="project-preview" style="filter:blur(2px);">
-        <div class="mock-header">
-          <div class="mock-nav-dots"><span></span><span></span><span></span></div>
-          <span>${project.preview}.js</span>
+  return `
+    <div class="project-preview ${disabled ? "disabled-preview" : ""}">
+      <div class="mini-browser">
+        <div class="browser-top">
+          <span></span><span></span><span></span>
         </div>
-        ${previewContent}
-      </div>
-      <div style="position:relative;margin-top:-200px;height:200px;display:flex;align-items:center;justify-content:center;z-index:2;">
-        <div class="coming-soon-badge">Coming Soon</div>
-      </div>
-    `;
-  }
 
+        <div class="mini-navbar">
+          <div class="mini-logo">${project.title.split(" ")[0]}</div>
+          <div class="mini-links">
+            <span>Home</span>
+            <span>About</span>
+            <span>Projects</span>
+          </div>
+        </div>
+
+        <div class="mini-hero">
+          <div class="hero-title-mini">${project.title}</div>
+          <div class="hero-text-mini">
+            ${project.description.substring(0, 70)}...
+          </div>
+
+          <div class="hero-buttons">
+            <div class="btn-green"></div>
+            <div class="btn-outline"></div>
+          </div>
+        </div>
+      </div>
+
+      ${
+        disabled
+          ? `<div class="coming-overlay"><div class="coming-soon-badge">Coming Soon</div></div>`
+          : ""
+      }
+    </div>
+  `;
+}
   /* default live preview */
   return `
     <div class="project-preview">
