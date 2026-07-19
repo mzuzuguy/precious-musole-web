@@ -64,37 +64,10 @@ function renderExperience(experience) {
 /* ══════════════════════════════════════════
    PROJECTS
 ══════════════════════════════════════════ */
-function renderProjects(projects) {
-  const grid = document.getElementById('projects-grid');
-  if (!grid) return;
-
-  grid.innerHTML = projects.map(project => {
-    const isLive = project.status === 'live';
-
-    return `
-      <div class="project-card">
-        ${buildProjectPreview(project)}
-        <div class="project-info">
-          <div class="project-title">${project.title}</div>
-          <div class="project-desc">${project.description}</div>
-          <div class="tag-list" style="margin-bottom:16px;">
-            ${project.tags.map(t => `<span class="tag">${t}</span>`).join('')}
-          </div>
-          ${isLive ? `
-          <div class="project-links">
-            ${project.codeUrl ? `<a href="${project.codeUrl}" target="_blank"><i class="fa-brands fa-github"></i> Code</a>` : ''}
-            ${project.liveUrl ? `<a href="${project.liveUrl}" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>` : ''}
-          </div>` : ''}
-        </div>
-      </div>
-    `;
-  }).join('');
-}
-
 function buildProjectPreview(project) {
   if (project.status === 'coming-soon') {
     const previewContent = {
-      code:     `<span style="color:var(--green);font-size:0.8rem;">Loading...</span>`,
+      code: `<span style="color:var(--green);font-size:0.8rem;">Loading...</span>`,
       database: `<span style="color:var(--green);font-size:0.8rem;">SELECT * FROM projects;</span>`,
     }[project.preview] || `<span style="color:var(--green);font-size:0.8rem;">// work in progress</span>`;
 
@@ -106,28 +79,28 @@ function buildProjectPreview(project) {
         </div>
         ${previewContent}
       </div>
+
       <div style="position:relative;margin-top:-200px;height:200px;display:flex;align-items:center;justify-content:center;z-index:2;">
         <div class="coming-soon-badge">Coming Soon</div>
       </div>
     `;
   }
 
-  /* default live preview */
   return `
     <div class="project-preview">
       <div class="mock-header">
         <div class="mock-nav-dots"><span></span><span></span><span></span></div>
         <span>&gt;_ ${project.title}</span>
       </div>
+
       <div style="color:var(--green);font-size:0.75rem;margin-top:20px;text-align:center;padding:0 20px;line-height:1.6;">
         <div style="color:var(--purple);">const</div>
         <div style="font-size:1.2rem;font-weight:700;color:var(--text);">${project.title}</div>
-        <div style="color:var(--green);">$ status: live</div>
+        <div style="color:var(--green);">$ status: ${project.status}</div>
       </div>
     </div>
   `;
 }
-
 
 /* ══════════════════════════════════════════
    ARTICLES
