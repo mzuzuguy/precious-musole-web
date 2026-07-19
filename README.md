@@ -2,7 +2,7 @@
 
 This is my personal developer portfolio website showcasing my skills, projects, experience, and technical journey as a **Software Engineer and Computer Science student from Malawi**.
 
-🌐 Live Site: https://mzuzuguy.github.io/Personal_Portifolio/
+🌐 Live Site: https://precious-musole-web.vercel.app/
 
 ---
 
