@@ -48,6 +48,15 @@
       "preview": "website"
     },
     {
+      "title": "Mobile Money Switch Backend",
+      "description": "A backend service for a mobile money interoperability platform that enables seamless transactions across multiple providers through a unified API. Built with NestJS and PostgreSQL, featuring secure authentication, payment processing, notifications, and a scalable architecture for financial services.",
+      "tags": ["NestJS", "TypeScript", "PostgreSQL", "REST API"],
+      "codeUrl": "https://github.com/mzuzuguy/switch-backend",
+      "liveUrl": "",
+      "status": "In development",
+      "preview": "switch"
+    },
+    {
       "title": "Portfolio Website",
       "description": "A cyber security specialist portfolio built with HTML, CSS and JavaScript — has futuristic feel, fully responsive, and deployed on vercel.",
       "tags": ["HTML", "CSS", "JavaScript"],
