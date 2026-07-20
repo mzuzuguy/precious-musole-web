@@ -76,5 +76,19 @@
       "status": "live",
       "preview": "portfolio"
     }
+
+    "articles": [
+  {
+    "title": "Building a Mobile Money Switch",
+    "date": "2026-07-20",
+    "summary": "A technical write-up documenting the design and implementation of my mobile money interoperability backend built with NestJS and PostgreSQL.",
+    "tags": [
+      "NestJS",
+      "Backend",
+      "FinTech"
+    ],
+    "url": "https://www.linkedin.com/posts/precious-musole-933886236_fintech-malawi-softwareengineering-ugcPost-7484522874943246336-IgOH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADrctbcB8SaBW7fZyyeahK2VBuTH0OkAnRw"
+  }
+]
   ]
 }
